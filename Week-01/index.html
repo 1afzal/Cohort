@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio Code</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #0e0e0e;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+
+        .flexclass {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333; /* Background color for the header */
+        }
+
+        .flexclass img {
+            padding-left: 10px;
+        }
+
+        .flexclass span {
+            color: white;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+
+        .flexclass a {
+            color: grey;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        .flexclass a:hover {
+            color: white;
+        }
+
+        .styled-button, .styled-button-github {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .styled-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .styled-button-github {
+            background-color: #24292e;
+        }
+
+        .styled-button-github:hover {
+            background-color: #1b1f23;
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexclass">
+        <img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo.png" 
+             alt="Visual Studio Code logo" 
+             width="20" 
+             height="20">
+        <span>Visual Studio Code</span>
+        <a href="/">Docs</a>
+        <a href="/">Updates</a>
+        <a href="/">Blog</a>
+        <a href="/">API</a>
+        <a href="/">Extension</a>
+        <a href="/">FAQs</a>
+        <a href="/">Learn</a>
+    </div>  
+
+    <div style="text-align: center; padding: 20px;">
+        <h1 style="font-size: 70px; color: white;">Code Faster with AI</h1>
+        <h3 style="font-size: 25px; color: white;">Visual Studio Code with GitHub Copilot supercharges your code with AI-powered suggestions, right in your editor.</h3>
+        <button class="styled-button">Download for Windows</button>
+        <button class="styled-button-github">Try GitHub Copilot</button>
+    </div>
+
+    <div style="text-align: center; padding: 20px;">
+        <img src="https://code.visualstudio.com/assets/home/home-screenshot-copilot.png" alt="GitHub Copilot in action" width="900" height="600">
+    </div>
+
+    <div style="display: flex; justify-content: space-between; padding: 20px; margin-left: 250px; margin-right:200px;">
+        <div style="color: white; width: 50%; padding: 20px;">
+            <h1 style="font-family: sans-serif;">Code with GitHub Copilot</h1>
+            <p>Write code faster and smarter with GitHub Copilot, your AI pair programmer. Try GitHub Copilot free for 30 days. Completions present suggestions automatically to help you code more efficiently. Copilot Chat understands the context of your code, workspace, extensions, settings, and more. Inline Chat enables you to iteratively generate edits and get answers to quick questions, directly on your code.</p>
+        </div>
+    
+        <div style="color: white; width: 50%; padding: 20px;">
+            <img src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" alt="GitHub Copilot in action" width="900">
+        </div>
+    </div>
+</body>
+</html>
