@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Grid</title>
+    <style>
+        /* Flex container with grid-like layout */
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; /* Items will wrap if container width is insufficient */
+            gap: 30px; /* Space between items */
+            justify-content: flex-start; /* Items aligned to the start of the container */
+        }
+
+        /* Styling each grid item */
+        .container div {
+            background-color:rgb(2, 41, 2);
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            width: 150px; /* Control the width of grid items */
+            height: 150px; /* Control the height of grid items */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            font-size: 30px;
+            color: white;
+        }
+
+        /* Styling the code block in the .d1 div */
+        .d1 {
+            background-color: darkblue; /* Give a different background to highlight code block */
+            color: white;
+            padding: 15px;
+            width: 100%; /* Make it fill the container */
+            font-size: 16px;
+            text-align: left;
+            border-radius: 8px;
+        }
+
+        .d1 pre {
+            margin: 0;
+            padding: 0;
+            font-family: monospace; /* Use monospace font for code */
+        }
+
+        /* Optional: make the container visually distinct */
+        .container {
+            border: 2px solid #333;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+    </div>
+
+</body>
+</html>

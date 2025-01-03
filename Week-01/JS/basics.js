@@ -18,3 +18,5 @@ console.log(typeof(score))
 let isLoggedIn = 1
 let booleanStatus = Boolean(isLoggedIn)
 console.log(booleanStatus)
+
+
