@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple VS Code Interface</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1E1E1E;
+            color: white;
+        }
+
+        .top-nav {
+            background-color: #2D2D2D;
+            padding: 15px;
+            border-bottom: 1px solid #3D3D3D;
+        }
+
+        .header-text {
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 48px;
+            background-color: #1E1E1E;
+        }
+
+        .buttons {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .download-btn {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .copilot-btn {
+            background-color: #333333;
+            color: white;
+            border: 1px solid #666666;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .editor-preview {
+            margin: 40px auto;
+            width: 80%;
+            background-color: #252526;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .editor-content {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .code-line {
+            color: #D4D4D4;
+            margin: 5px 0;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            color: #CCCCCC;
+        }
+
+        .nav-link {
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-links">
+            <a href="#" class="nav-link">Docs</a>
+            <a href="#" class="nav-link">Updates</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">API</a>
+            <a href="#" class="nav-link">Extensions</a>
+            <a href="#" class="nav-link">FAQ</a>
+            <a href="#" class="nav-link">GitHub Copilot</a>
+        </div>
+    </nav>
+
+    <div class="header-text">
+        Your code editor.<br>
+        Redefined with AI.
+    </div>
+
+    <div class="buttons">
+        <button class="download-btn">Download for Windows</button>
+        <button class="copilot-btn">Get Copilot Free</button>
+    </div>
+
+    <div class="editor-preview">
+        <div class="editor-content">
+            <div class="code-line">import { useState } from 'react';</div>
+            <div class="code-line">import reactLogo from './react.svg';</div>
+            <div class="code-line">function App() {</div>
+            <div class="code-line">&nbsp;&nbsp;const [count, setCount] = useState(0);</div>
+            <div class="code-line">&nbsp;&nbsp;return (</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<div>Hello World</div></div>
+            <div class="code-line">&nbsp;&nbsp;);</div>
+            <div class="code-line">}</div>
+        </div>
+    </div>
+</body>
+</html>

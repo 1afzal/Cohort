@@ -1,0 +1,69 @@
+.title h1 {
+  color: rgba(0, 128, 0, 0.819);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.title p {
+  color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  border: 1px solid rgba(0, 0, 0, 0.661);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.sub-container {
+  padding : 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub{
+    width : 100px;
+    height : 30px;
+    color : white ;
+    background-color : red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 4px;
+}
+.next{
+    margin-left : 30px;
+    width : 100px;
+    height : 30px;
+    background-color: rgb(15, 141, 15);
+    border-radius : 4px;
+    font-size: 15px;
+    color : white;
+    border: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
